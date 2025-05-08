@@ -34,7 +34,7 @@ Future<void> _initializeNotifications() async {
 
   await flutterLocalNotificationsPlugin.initialize(initializationSettings);
 
-  // Android 13+ izin isteme
+ 
   if (await Permission.notification.isDenied ||
       await Permission.notification.isRestricted) {
     await Permission.notification.request();

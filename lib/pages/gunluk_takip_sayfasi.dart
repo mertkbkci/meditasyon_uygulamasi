@@ -174,7 +174,7 @@ class _GunlukTakipSayfasiState extends State<GunlukTakipSayfasi> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.teal,
+      backgroundColor: Colors.blue,
       appBar: AppBar(
         leading: IconButton(
           icon: Icon(Icons.arrow_back, color: Colors.white),
@@ -189,7 +189,7 @@ class _GunlukTakipSayfasiState extends State<GunlukTakipSayfasi> {
               fontWeight: FontWeight.bold,
               color: Colors.white,
             )),
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.blue,
         centerTitle: true,
       ),
       body: SingleChildScrollView(
@@ -223,7 +223,7 @@ class _GunlukTakipSayfasiState extends State<GunlukTakipSayfasi> {
                           alignment: Alignment.center,
                           decoration: BoxDecoration(
                             shape: BoxShape.circle,
-                            color: meditasyonYapildi ? Colors.teal : null,
+                            color: meditasyonYapildi ? Colors.blue : null,
                           ),
                           child: Text(
                             '${day.day}',
@@ -285,7 +285,7 @@ class _GunlukTakipSayfasiState extends State<GunlukTakipSayfasi> {
         elevation: 4,
         margin: const EdgeInsets.symmetric(vertical: 8),
         child: ListTile(
-          leading: Icon(item['icon'] as IconData, color: Colors.teal, size: 30),
+          leading: Icon(item['icon'] as IconData, color: Colors.blue, size: 30),
           title: Text(
             overflow: TextOverflow.ellipsis,
             maxLines: 1,

@@ -3,6 +3,8 @@
 import 'package:flutter/material.dart';
 
 class AnaSayfa extends StatelessWidget {
+  const AnaSayfa({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -16,7 +18,7 @@ class AnaSayfa extends StatelessWidget {
       body: Container(
         decoration: BoxDecoration(
           gradient: LinearGradient(
-            colors: [Colors.teal.shade700, Colors.teal.shade200],
+            colors: [Colors.blue.shade700, Colors.blue.shade200],
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
           ),

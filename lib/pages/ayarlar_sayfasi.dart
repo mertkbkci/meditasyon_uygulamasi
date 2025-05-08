@@ -186,7 +186,7 @@ Widget build(BuildContext context) {
   }
 
   return Scaffold(
-    backgroundColor: Colors.teal,
+    backgroundColor: Colors.blue,
     appBar: AppBar(
       centerTitle: true,
         leading: IconButton(
@@ -195,7 +195,7 @@ Widget build(BuildContext context) {
             Navigator.pop(context);
           },
         ),
-         backgroundColor: Colors.teal,
+         backgroundColor: Colors.blue,
         automaticallyImplyLeading: false,
       title: Text('Ayarlar',
           style: TextStyle(
@@ -222,7 +222,7 @@ Widget build(BuildContext context) {
               padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 20),
               child: Row(
                 children: [
-                  Icon(Icons.alarm, color: Colors.teal, size: 30),
+                  Icon(Icons.alarm, color: Colors.blue, size: 30),
                   SizedBox(width: 16),
                   Expanded(
                     child: Column(
@@ -248,7 +248,7 @@ Widget build(BuildContext context) {
                     label: Text('Seç', style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500, color: Colors.white)),
                     onPressed: _saatSec,
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: Colors.teal,
+                      backgroundColor: Colors.blue,
                     ),
                   )
                 ],

@@ -92,7 +92,7 @@ class _MeditasyonSayfasiState extends State<MeditasyonSayfasi> {
       body: Container(
         decoration: BoxDecoration(
           gradient: LinearGradient(
-            colors: [Colors.teal.shade800, Colors.teal.shade200],
+            colors: [Colors.blue.shade700, Colors.blue.shade200],
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
           ),
@@ -132,7 +132,7 @@ class _MeditasyonSayfasiState extends State<MeditasyonSayfasi> {
                           contentPadding: const EdgeInsets.symmetric(
                               horizontal: 20, vertical: 12),
                           leading: Icon(Icons.self_improvement,
-                              size: 32, color: Colors.teal),
+                              size: 32, color: Colors.blue),
                           title: Text(meditasyon['baslik']!,
                               style: TextStyle(
                                   fontSize: 18, fontWeight: FontWeight.w600)),

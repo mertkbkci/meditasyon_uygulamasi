@@ -94,7 +94,7 @@ class _NefesEgzersiziSayfasiState extends State<NefesEgzersiziSayfasi>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.teal,
+      backgroundColor: Colors.blue,
       appBar: AppBar(
         leading: IconButton(
           icon: Icon(Icons.arrow_back, color: Colors.white),
@@ -103,7 +103,7 @@ class _NefesEgzersiziSayfasiState extends State<NefesEgzersiziSayfasi>
           },
         ),
         automaticallyImplyLeading: false,
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.blue,
         title: Text('Nefes Egzersizi',
             style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold, color: Colors.white)),
         centerTitle: true,
@@ -124,13 +124,13 @@ class _NefesEgzersiziSayfasiState extends State<NefesEgzersiziSayfasi>
                     style: TextStyle(
                         fontSize: 30,
                         fontWeight: FontWeight.bold,
-                        color: Colors.teal[800]),
+                        color: Colors.blue[800]),
                   ),
                   SizedBox(height: 8),
                   if (_geriSayim > 0)
                     Text(
                       '$_geriSayim saniye',
-                      style: TextStyle(fontSize: 20, color: Colors.teal[600]),
+                      style: TextStyle(fontSize: 20, color: Colors.blue[600]),
                     ),
                   SizedBox(height: 30),
                   AnimatedBuilder(
@@ -143,13 +143,13 @@ class _NefesEgzersiziSayfasiState extends State<NefesEgzersiziSayfasi>
                           shape: BoxShape.circle,
                           gradient: RadialGradient(
                             colors: [
-                              Colors.teal.shade200,
-                              Colors.teal.shade400,
+                              Colors.blue.shade200,
+                              Colors.blue.shade400,
                             ],
                           ),
                           boxShadow: [
                             BoxShadow(
-                              color: Colors.teal.withOpacity(0.3),
+                              color: Colors.blue.withOpacity(0.3),
                               blurRadius: 20,
                               spreadRadius: 5,
                             )
